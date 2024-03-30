@@ -8,3 +8,6 @@ Can be configured in main.py.
 Requirements:
 discord.py:
 `pip3 install discord`
+
+Configuration guide:
+![guide image](https://github.com/OnniSaarni/jamix-discord-webhook/blob/main/images/guide.png?raw=true)
