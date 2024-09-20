@@ -110,7 +110,8 @@ try:
 
         # 
         embed.add_field(name=lunchTitle, value=lunchMenu2, inline=False)
-        embed.add_field(name=vegLunchTitle, value=vegLunchMenu2, inline=False)
+        if len(vegLunchMenu) != 0:
+            embed.add_field(name=vegLunchTitle, value=vegLunchMenu2, inline=False)
 
         # Send embed to webhook
         webhook = SyncWebhook.from_url(webhook)
